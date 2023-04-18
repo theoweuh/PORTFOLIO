@@ -7,8 +7,14 @@
 
 video {
     position: fixed;
-    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+
 }
+
 
 body {
     
@@ -29,7 +35,7 @@ body {
 
 h2{
     text-shadow: 1px 1px 1px black;
-    font-size: 25px;
+    font-size: 2.5vw;
     color :#f1f1f1;
 }
 
@@ -37,7 +43,7 @@ h1 {
 
     text-shadow: 2px 2px 5px black;
     position: Center;
-    font-size: 90px;
+    font-size: 6vw;
     color: #f1f1f1;
 }
 h1 span {
@@ -47,6 +53,10 @@ h1 span {
 .container-btns {
     position: relative;
     top: 50px;
+    padding: 2.8em;
+  /* transition: all 0.2s; */
+  background-repeat: no-repeat;
+   
 }
 .btn-first {
     border: 1px solid #f1f1f1;
@@ -224,4 +234,4 @@ body {
       border-color: transparent
     }
   }
-
+ 
